@@ -1,0 +1,44 @@
+# Compilación y artefactos de Maven
+target/
+*.jar
+*.war
+*.ear
+*.class
+*.log
+*.ear
+*.nar
+*.lib
+*.dll
+*.so
+*.dylib
+
+# Metadatos y configuración local de Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+tmp/
+.apt_generated/
+.apt_generated_test/
+.factorypath
+.springBeans
+.sts4-cache/
+
+# Archivos de Spring Boot / devtools
+*.hprof
+.flattened-pom.xml
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Archivos del sistema operativo (Windows / macOS)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Secretos y configuraciones locales
+*.env
+.env.*
+application-local.yml
+application-local.properties
